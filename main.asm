@@ -122,6 +122,7 @@ _start:
     mov eax, [x1]
     add eax, 2
     mov ebx, 2
+    mov edx, 0
     div ebx
     mov [x2], eax
 
